@@ -8,8 +8,8 @@ header {
 	margin-left: 60px;
 	margin-right: 100px;
 }
-#main-content {
-	background-image: url("concrete_seamless.png");
+.main-content {
+	background-image: url("../images/concrete_seamless.png");
 	font-size:;
 	font-family:Ariel;
 	background-color:brown;
@@ -18,14 +18,16 @@ header {
 	clear:both;
 	overflow:auto;
 	border-color: #4aaaa5;
+	border-bottom: solid #4aaaa5;
 }
-#top-right {
+.top-right {
 	background-color:orange;
 	width:20%;
 	text-align: right;
 	margin-left: 70px;
 	padding:30px;
 	float:left;
+	border-right: solid 1px black;
 }
 aside{
 	padding: 20px 0;
@@ -39,10 +41,11 @@ aside{
 	width:450px;
 	
 }
-#right {
+.right {
 	background-color: pink;
 	width:270px;
 	float:left;
+	display:inline-block;
 }
 footer {
 	background: #666666;
